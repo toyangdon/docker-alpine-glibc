@@ -1,6 +1,6 @@
 language: go
-go:
-- "1.13"
+#go:
+#- "1.13"
 arch:
   - arm64
 os:
