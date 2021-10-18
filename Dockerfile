@@ -14,6 +14,4 @@ RUN apk upgrade --update-cache &&\
     sleep 2 &&\
     /usr/glibc-compat/bin/localedef -i en_US -f UTF-8 en_US.UTF-8
 
-ENV JAVA_HOME ${DIR_JAVA_HOME}
-ENV PATH      $PATH:${DIR_JAVA_HOME}/bin
 ENV LANG      en_US.UTF8
